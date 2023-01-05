@@ -1,0 +1,297 @@
+/* GENERAL CSS START  */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.button {
+  border: none;
+  text-transform: uppercase;
+  padding: 15px 35px;
+  background-color: #007bff;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+  color: #fff;
+}
+/* GENERAL CSS END */
+
+/* HEADER STYLING START */
+.header {
+  padding-bottom: 170px;
+}
+
+.header__logo,
+.navigation,
+.navigation__list-item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header__logo {
+  padding: 35px 0;
+  margin-right: 140px;
+}
+
+.navigation__list-item a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #05364d;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.navigation__list-item a:hover {
+  color: #efb6df;
+}
+
+a.active {
+  color: #efb6df;
+}
+
+.navigation__list-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+/* HEADER STYLING END */
+
+/* HERO STYLING START */
+.hero__container > div {
+  width: 50%;
+  float: left;
+}
+.hero__info-heading {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  color: #797979;
+}
+
+.hero__info-title {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #05364d;
+}
+
+.hero__info-subtitle {
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #05364d;
+  margin-bottom: 50px;
+}
+
+.hero__info-social {
+  margin-bottom: 50px;
+}
+
+.hero__info-social a {
+  color: rgba(5, 54, 77, 0.5);
+  font-size: 20px;
+  margin-right: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.hero__info-social a:hover {
+  color: #007bff;
+}
+
+.hero__image {
+  text-align: right;
+}
+
+/* HERO STYLING END */
+
+/* STATISTIC STYLING START */
+.statistics {
+  padding-bottom: 140px;
+}
+.statistics__wrapper {
+  display: inline-block;
+  text-align: center;
+  padding: 30px 15px;
+  background: #f8faff;
+  width: 160px;
+}
+
+.statistics__wrapper h3 {
+  font-size: 27px;
+  margin-bottom: 5px;
+  color: #007bff;
+}
+
+.statistics__wrapper p {
+  color: #797979;
+}
+
+/* About Me Section Start */
+.about__me {
+  padding-bottom: 140px;
+}
+
+.about__me-container > div {
+  width: 50%;
+  float: right;
+}
+.about__me-right {
+  padding-top: 80px;
+}
+.about__me-right-top {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #797979;
+  font-size: 14px;
+}
+
+.blur-line {
+  display: inline-block;
+  margin-left: 5px;
+  width: 80px;
+  height: 4px;
+  background: rgba(237, 35, 159, 0.6);
+  border-radius: 5px;
+  filter: blur(4px);
+}
+
+.about__me-right-heading {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 0px;
+  line-height: 52px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.about__me-right-desc {
+  font-size: 14px;
+  line-height: 27px;
+  font-weight: 300;
+  color: #797979;
+  width: 445px;
+  margin-bottom: 20px;
+}
+/* About Me Section END */
+
+/* SERVICES SECTION START */
+.services {
+  padding-bottom: 140px;
+}
+.services__list {
+  list-style: none;
+}
+
+.services__list-item {
+  width: 30%;
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+  margin-right: 3%;
+  padding: 60px 30px;
+  background-color: #fff;
+}
+
+.services__list-item:hover {
+  background-color: #5f30ff;
+}
+
+.services__list-item:hover .services__list-item-heading,
+.services__list-item:hover .services__list-item-paragraph,
+.services__list-item:hover .services__list-item-link {
+  color: #fff;
+}
+
+.services__list-item img,
+.services__list-item h4,
+.services__list-item p {
+  margin-bottom: 20px;
+}
+
+.services__list-item a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #05364d;
+}
+/* SERVICES SECTION END */
+
+/* CLIENTS SECTION STYLING START */
+.clients__container > div {
+  width: 44%;
+  float: left;
+}
+
+.clients__heading {
+  margin-bottom: 50px;
+}
+
+.clients__right {
+  width: 660px;
+  height: 550px;
+}
+
+.clients__right img {
+  width: 100%;
+}
+
+.clients__left {
+  padding-top: 100px;
+  margin-left: 8.333333%;
+}
+
+.clients__left-heading {
+  font-size: 20px;
+  margin-bottom: 4px;
+  font-weight: 700;
+  color: #05364d;
+}
+
+.clients__left-paragraph,
+.clients__left-description,
+.clients__left-heading {
+  margin-bottom: 10px;
+}
+.clients__left-paragraph,
+.clients__left-description {
+  font-size: 14px;
+  font-weight: 300;
+  color: #5b6d75;
+}
+
+.clients__left-description {
+  width: 400px;
+}
+
+.clients__left-rating i {
+  color: #ffd804;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+i.disable {
+  color: #aeb9be;
+}
+
+/* CLIENTS SECTION STYLING END */
